@@ -31,7 +31,7 @@ section{
     background-image: url("../images/page1.PNG");
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     
 }
 
@@ -52,7 +52,7 @@ section{
     background-image: url("../images/page2.PNG");
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 
@@ -66,7 +66,7 @@ section{
     background-image: url("../images/page2a.PNG");
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 .page3{
@@ -74,55 +74,55 @@ section{
     background-image: url("../images/page3.PNG");
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 .page4{
     background-image: url("../images/page4.PNG");
-    background-position: left top;
+    /* background-position: left toa; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 .page4{
     background-image: url("../images/page4.PNG");
-    background-position: left top;
+    /* background-position: left toa; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 .page5{
     background-image: url("../images/page5.PNG");
-    background-position: left top;
+    /* background-position: left toa; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 .page6{
     background-image: url("../images/page6.PNG");
-    background-position: left top;
+    /* background-position: left toa; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 .page7{
     background-image: url("../images/page7.PNG");
-    background-position: left top;
+    /* background-position: left toa; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 .page8{
     background-image: url("../images/page8.PNG");
-    background-position: left top;
+    /* background-position: left toa; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
 
 .page8a{
     background-image: url("../images/page8a.PNG");
-    background-position: left top;
+    /* background-position: left toa; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
 }
-
+/* a */
