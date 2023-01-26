@@ -1,0 +1,128 @@
+body{
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.page0{
+    /* background-color: aqua; */
+    background-image: url("../images/title_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.Title_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.page1{
+    /* background-color: aqua; */
+    background-image: url("../images/page1.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    
+}
+
+.P1_txt{
+    /* display: flex; */
+    padding: 3vw;
+}
+
+.Q1_img{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+}
+
+
+.page2{
+    /* background-color: cornflowerblue; */
+    background-image: url("../images/page2.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+.Next_img{
+    margin-top: 22vh;
+    margin-left: 3vw;
+}
+
+.page2a{
+    /* background-color: cornflowerblue; */
+    background-image: url("../images/page2a.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.page3{
+    /* background-color: darkcyan; */
+    background-image: url("../images/page3.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.page4{
+    background-image: url("../images/page4.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.page4{
+    background-image: url("../images/page4.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.page5{
+    background-image: url("../images/page5.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.page6{
+    background-image: url("../images/page6.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.page7{
+    background-image: url("../images/page7.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.page8{
+    background-image: url("../images/page8.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.page8a{
+    background-image: url("../images/page8a.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
