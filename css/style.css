@@ -1,178 +1,131 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="utf-8">
-    <title>デジタル絵本</title>
-    <meta name="description" content="ディスクリプションを入力">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!----- header----->
-    <!-- <header>ヘッダー</header>
-    <nav>ナビ</nav> -->
-    <!----- /header ----->
+body{
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.page0{
+    /* background-color: aqua; */
+    background-image: url("../images/title_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     
-    <!----- main ----->
+}
 
-    <!-- タイトル -->
-    <section class="page0" id="link0">
-        <div class="Title_img">
-            <img src="images/title.png" width=50% vspace=200px>
-            <a href="#link1">
-            <img src="images/start_btn.png" width=40% vspace=10px>
-            </a>
-        </div>
-        
-    </section>
+.Title_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.page1{
+    /* background-color: aqua; */
+    background-image: url("../images/page1.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    
+}
+
+.P1_txt{
+    /* display: flex; */
+    padding: 2vw;
+}
+
+.Q1_img{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
 
 
-    <!-- 海辺で暮らす若者 -->
-    <section class="page1" id="link1">
-        <div class="P1_txt">
-            <img src="images/page1_txt.png" height=430px>
-        </div>
-        
-        <div class="Q1_img">
-            <img src="images/Q1_txt.png" width=20% vspace=20px>
-            <a href="#link2">
-            <img src="images/Q1_A1.png" width=20% vspace=10px>
-            </a>
-            <a href="#link2a">
-            <img src="images/Q1_A2.png" width=20% vspace=10px>
-            </a>
-        </div>
-        
-    </section>
+.page2{
+    /* background-color: cornflowerblue; */
+    background-image: url("../images/page2.PNG");
+    /* background-size: cover; */
+    /* background-position: left top; */
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+   
+}
 
-    <!-- 亀を助けた -->
-    <section class="page2" id="link2">
-        <div class="P1_txt">
-            <img src="images/page2_txt.png" height=430px>
-        </div>
-        
-        <div class="Next_img">
-            <a href="#link3">
-            <img src="images/Next_btn.png" width=20% vspace=10px>
-            </a>
-        </div>
-    </section>
 
-    <!-- 亀を助けなかった -->
-    <section class="page2a" id="link2a">
-        <div class="P1_txt">
-            <img src="images/page2a_txt.png" height=430px>
-        </div>
-        
-        <div class="Next_img">
-            <a href="#link0">
-            <img src="images/top_btn.png" width=20% vspace=10px>
-            </a>
-        </div>
-    </section>
+.Next_img{
+    margin-top: 20vh;
+    margin-left: 3vw;
+}
 
-    <!-- 亀がむかえにきた -->
-    <section class="page3" id="link3">
-        <div class="P1_txt">
-            <img src="images/page3_txt.png" height=430px>
-        </div>
-        
-        <div class="Next_img">
-            <a href="#link4">
-            <img src="images/Next_btn.png" width=20% vspace=10px>
-            </a>
-        </div>
-    </section>
+.page2a{
+    /* background-color: cornflowerblue; */
+    background-image: url("../images/page2a.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 
-    <!-- 竜宮についた -->
-    <section class="page4" id="link4">
-        <div class="P1_txt">
-            <img src="images/page4_txt.png" height=430px>
-        </div>
-        
-        <div class="Next_img">
-            <a href="#link5">
-            <img src="images/Next_btn.png" width=20% vspace=10px>
-            </a>
-        </div>
-    </section>
+.page3{
+    /* background-color: darkcyan; */
+    background-image: url("../images/page3.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 
-    <!-- たのしくすごした -->
-    <section class="page5" id="link5">
-        <div class="P1_txt">
-            <img src="images/page5_txt.png" height=430px>
-        </div>
-        
-        <div class="Next_img">
-            <a href="#link6">
-            <img src="images/Next_btn.png" width=20% vspace=10px>
-            </a>
-        </div>
-    </section>
+.page4{
+    background-image: url("../images/page4.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 
-    <!-- かえる -->
-    <section class="page6" id="link6">
-        <div class="P1_txt">
-            <img src="images/page6_txt.png" height=430px>
-        </div>
-        
-        <div class="Next_img">
-            <a href="#link7">
-            <img src="images/Next_btn.png" width=20% vspace=10px>
-            </a>
-        </div>
-    </section>
+.page4{
+    background-image: url("../images/page4.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 
-    <!-- 300年経過 -->
-    <section class="page7" id="link7">
-        <div class="P1_txt">
-            <img src="images/page7_txt.png" height=430px>
-        </div>
-        
-        <div class="Q1_img">
-            <img src="images/Q2_txt.png" width=20% vspace=20px>
-            <a href="#link8">
-            <img src="images/Q2_A1.png" width=20% vspace=10px>
-            </a>
-            <a href="#link8a">
-            <img src="images/Q2_A2.png" width=20% vspace=10px>
-            </a>
-        </div>
-    </section>
+.page5{
+    background-image: url("../images/page5.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 
-    <!-- 玉手箱を開けてお爺さんになった -->
-    <section class="page8" id="link8">
-        <div class="P1_txt">
-            <img src="images/page8_txt.png" height=430px>
-        </div>
-        
-        <div class="Next_img">
-            <a href="#link0">
-            <img src="images/top_btn.png" width=20% vspace=10px>
-            </a>
-        </div>
-    </section>
+.page6{
+    background-image: url("../images/page6.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 
-    <!-- 玉手箱を開けなかった -->
-    <section class="page8a" id="link8a">
-        <div class="P1_txt">
-            <img src="images/page9_txt.png" height=430px>
-        </div>
-        
-        <div class="Next_img">
-            <a href="#link0">
-            <img src="images/top_btn.png" width=20% vspace=10px>
-            </a>
-        </div>
-    </section>
+.page7{
+    background-image: url("../images/page7.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
 
-    <!----- /main ----->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/script.js"></script>
-    <!----- footer ----->
-    <!-- <footer>
-        フッター
-    </footer> -->
-    <!----- /footer ----->
-</body>
-</html>
+.page8{
+    background-image: url("../images/page8.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.page8a{
+    background-image: url("../images/page8a.PNG");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
