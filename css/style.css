@@ -29,9 +29,10 @@ section{
 .page1{
     /* background-color: aqua; */
     background-image: url("../images/page1.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
+    /* background-size: auto 100%; */
     
 }
 
@@ -51,81 +52,90 @@ section{
 .page2{
     /* background-color: cornflowerblue; */
     background-image: url("../images/page2.PNG");
-    /* background-size: cover; */
+    background-size: cover;
     /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
    
 }
 
 
 .Next_img{
-    margin-top: 20vh;
+    margin-top: 19vh;
     margin-left: 3vw;
 }
 
 .page2a{
     /* background-color: cornflowerblue; */
     background-image: url("../images/page2a.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
 }
 
 .page3{
     /* background-color: darkcyan; */
     background-image: url("../images/page3.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
 }
 
 .page4{
     background-image: url("../images/page4.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
 }
 
 .page4{
     background-image: url("../images/page4.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
 }
 
 .page5{
     background-image: url("../images/page5.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
 }
 
 .page6{
     background-image: url("../images/page6.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
 }
 
 .page7{
     background-image: url("../images/page7.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
 }
 
 .page8{
     background-image: url("../images/page8.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
 }
 
 .page8a{
     background-image: url("../images/page8a.PNG");
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    /* background-size: auto 100%; */
+    background-size: cover;
 }
 
